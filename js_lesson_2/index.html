@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Функції</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<div class="container">
+
+    <p style="font-size: 24px; font-weight: bold;">Дано масив студентів:</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Ім'я</th>
+                <th>Вік</th>
+                <th>Оцінка</th>
+            </tr>
+        </thead>
+        <tbody id="studentTable_1">
+        </tbody>
+    </table>
+    <div class="result-box">
+        <h3>Фільтрування за оцінкою</h3>
+        <p>Мінімальна оцінка: <span id="minGrade1"></span>
+        </p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Ім'я</th>
+                    <th>Вік</th>
+                    <th>Оцінка</th>
+                </tr>
+            </thead>
+            <tbody id="studentTable">
+            </tbody>
+        </table>
+    </div>
+    <div class="result-box">
+        <h3>Сортування за віком</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Ім'я</th>
+                    <th>Вік</th>
+                    <th>Оцінка</th>
+                </tr>
+            </thead>
+            <tbody id="studentTable_2">
+            </tbody>
+        </table>
+    </div>
+    <div class="result-box">
+        <h3>Підрахунок середнього балу</h3>
+        <p style="font-size: 14px;">Середній бал за всіма студентами: <span id="averageResult"></span></p>
+    </div>
+    <div class="result-box">
+        <h3>Пошук студента на ім'я</h3>
+        <p style="font-size: 14px;">a) Знайти студента: Жора</p>
+        <p style="font-size: 14px;" id="findName1"></p>
+        <p style="font-size: 14px;">б) Знайти студента: Ірина</p>
+        <p style="font-size: 14px;" id="findName2"></p>
+    </div>
+</div>
+<script src="function.js"></script>
+
+<body>
+
+</body>
+
+</html>
